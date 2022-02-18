@@ -110,7 +110,7 @@
             top: 369px;
             left: 77px;
             z-index: 1;
-            right: 1120px;
+            right: 288px;
         }
         .auto-style15 {
             position: absolute;
@@ -146,7 +146,7 @@
         <asp:Label ID="lblError" runat="server" CssClass="auto-style13" Text="error" height="19px" width="135px"></asp:Label>
         <asp:Button ID="btnCancel" runat="server" CssClass="auto-style15" Text="Cancel" BackColor="#000099" Font-Bold="True" ForeColor="White" height="26px" />
         <p>
-        <asp:Button ID="btnOK" runat="server" CssClass="auto-style14" OnClick="btnOK_Click" Text="OK" BackColor="#000099" Font-Bold="True" ForeColor="White" height="26px" width="90px" />
+        <asp:Button ID="btnOK" runat="server" CssClass="auto-style14" Text="OK" BackColor="#000099" Font-Bold="True" ForeColor="White" height="26px" width="90px" OnClick="btnOK_Click" />
         </p>
     </form>
 </body>
