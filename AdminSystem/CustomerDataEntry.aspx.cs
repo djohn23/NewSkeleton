@@ -17,6 +17,13 @@ public partial class _1_DataEntry : System.Web.UI.Page
 
     }
 
+
+
+    protected void btnCancel_Click(object sender, EventArgs e)
+    {
+
+    }
+
     protected void btnOK_Click(object sender, EventArgs e)
     {
         //create a new instance of clsCustomer
@@ -28,11 +35,11 @@ public partial class _1_DataEntry : System.Web.UI.Page
         //capture the Address
         ACustomer.Address = txtAddress.Text;
         //capture the DOB
-        ACustomer.DOB = Convert.ToDateTime(txtDOB.Text);
+        //ACustomer.DOB = Convert.ToDateTime(txtDOB.Text);
         //capture the Over 18
         //ACustomer.Over18 = Convert.ToBoolean(chkOver18.Text);
         //capture OrderID
-        ACustomer.OrderID = Convert.ToInt32(txtOrderID.Text);
+        //ACustomer.OrderID = Convert.ToInt32(txtOrderID.Text);
 
         //store the full name in the session object
         Session["ACustomer"] = ACustomer;
