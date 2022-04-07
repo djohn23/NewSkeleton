@@ -94,5 +94,13 @@ namespace Testing1
             //test to see that the two values are the same
             Assert.AreEqual(ACustomer.OrderID, TestData);
         }
+
+        [TestMethod]
+        public void FindMethodOK()
+        {
+
+
+        }
+
     }
 }

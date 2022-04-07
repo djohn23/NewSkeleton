@@ -17,4 +17,10 @@ public partial class _1Viewer : System.Web.UI.Page
         //display the customer for this entry
         Response.Write(ACustomer.FullName);
     }
+
+    protected void btnCancel_Click(object sender, EventArgs e)
+    {
+        //navigate to the viewer page
+        Response.Redirect("CustomerDataEntry.aspx");
+    }
 }
